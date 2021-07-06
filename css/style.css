@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #040714;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+main.main-principal{
+    width: 100%;
+    min-height: 1190px;
+    background-image: url('../images/5BrandsNew_Desktop_BPO_\(1\)-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 10px 37px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090b13;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 10px 37px;
+    z-index: 999;
+}
+
+.menu-logo{
+    width: 80px;
+    height: 100%;
+}
+.menu-logo img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+
+.menu-desktop ul{
+    list-style-type: none;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-desktop li a{
+    text-decoration: none;
+}
+
+a.btn-assine{
+    background-color: #0063e5;
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.btn-entrar{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+
+.btn-entrar:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease-in;
+}
+
+
+
+.oferta-principal{
+    width: 100%;
+    padding: 180px 0 0 80px;
+}
+
+.img-oferta{
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.img-oferta img{
+    width: 100%;
+    display: block;
+}
+
+.oferta-texto{
+    color: #fff;
+}
+
+.oferta-texto h1{
+    font-size: 44px;
+}
+
+.oferta-texto h2{
+    font-size: 25px;
+}
+
+.oferta-texto a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px 120px;
+    margin: 15px 0 0 0;
+    background-color: #0063e5;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+
+.oferta-texto p{
+    width: 100%;
+    font-size: 15px;
+}
+
+p.info-oferta{
+    margin: 15px 0;
+    line-height: 20px;
+    font-size: 11px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+
+section.sessao-2 .container{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 590px;
+    
+}
+
+.w-texto{
+    width: 50%;
+    color: #fff;
+    padding-right: 100px;
+}
+
+.w-texto h2{
+    font-size: 40px;
+    padding: 32px 0 12px 0;
+}
+
+.w-texto p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.w-img{
+    width: 50%;
+    position: relative;
+}
+
+.w-img img{
+    width: 100%;
+    position: absolute;
+    top: -150px;
+}
+
+.titulo-sessao{
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.titulo-sessao h2{
+    font-size: 45px;
+    color: #fff;
+}
+
+.titulo-sessao p{
+    font-size: 18px;
+    color: hsla(0,0%,75.3%,.8);
+    padding: 20px 0 30px 0;
+}
+
+section.sessao-cards .container{
+    max-width: 1600px;
+    min-height: 600px;
+    padding-bottom: 150px;
+}
+
+.sessao-cards__flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card-wrap{
+    width: 32.3%;
+    border: 10px solid transparent;
+}
+
+.card-wrap img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-assine__sessao-cards{
+    margin-top: 175px;
+    text-align: center;
+}
+
+.btn-assine__sessao-cards a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0063e5;
+    padding: 18px 118px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cartas-filme{
+    padding-top: 175px;
+    min-height: 500px;
+    position: relative;
+}
+
+.cartas-filme img{
+    width: 100%;
+}
+
+.img-cartas-2{
+    display: none;
+}
+
+.texto-cartas{
+    position: relative;
+    float: right;
+    top: 490px;
+    right: 150px;
+    width: 38%;
+}
+
+.texto-cartas h2{
+    font-size: 40px;
+    padding-bottom: 17px;
+    color: #fff;
+}
+
+.texto-cartas p{
+    font-size: 18px;
+    color: hsla(0,0%,75.3%,.8);
+    line-height: 31px;
+}
+
+section.dispositivos{
+    min-height: 880px;
+    padding-bottom: 140px;
+}
+
+section.dispositivos .container{
+    max-width: 1550px;
+}
+
+.dispositivos-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.dispositivos-wrap{
+    width: 25%;
+    text-align: center;
+}
+
+.dispositivos-wrap img{
+    width: 100%;
+}
+
+.dispositivos-wrap h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.dispositivos-wrap ul{
+    list-style-type: none;
+}
+
+.dispositivos-wrap ul li{
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 19px;
+    font-weight: lighter;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.btn-assine__sessao-dispositivos{
+    margin-top: 220px;
+    text-align: center;
+}
+
+.btn-assine__sessao-dispositivos a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0063e5;
+    padding: 18px 118px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer .logo-footer{
+    width: 75px;
+    margin: 0 auto;
+}
+
+.footer-links{
+    margin: 5px auto;
+    text-align: center;
+    max-width: 1050px;
+    color: hsla(0,0%,75.3%,.8);
+    padding-bottom: 15px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+}
+
+.footer-links ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.footer-links ul li a:hover{
+    color: #fff;
+}
+
+.footer-links p{
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px){
+    main.main-principal{
+        background-image: url('../images/5BrandsNew_Mobile_BPO_\(1\)-1.jpg');
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        position: relative;
+        height: auto;
+        top: 15px;
+        min-height: 600px;
+    }
+
+    .menu-desktop{
+        padding: 10px 2px;
+    }
+
+    .menu-logo{
+        width: 60px;
+        height: 100%;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .menu-logo img{
+        width: 100%;
+        display: block;
+        object-fit: contain;
+    }
+
+    .oferta-principal{
+        margin: 180px auto;
+        text-align: center;
+        padding: 0 2%;
+    }
+
+    .oferta-principal h1{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .oferta-principal h2{
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .oferta-principal p{
+        font-size: 14px;
+    }
+
+    p.info-oferta{
+        font-size: 11px;
+        padding-bottom: 60px;
+    }
+
+    .img-oferta{
+        width: 140px;
+        margin: 0 auto;
+    }
+    
+    .img-oferta img{
+        width: 100%;
+        display: block;
+    }
+
+
+    section.sessao-2 .container{
+        max-width: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        min-height: 590px;
+        position: relative;
+        top: -100px;
+        padding: 0 4%;
+    }
+    
+    .w-texto{
+        width: 100%;
+        color: #fff;
+        padding: 25px 0;
+        text-align: center;
+    }
+    
+    .w-texto h2{
+        font-size: 25px;
+        padding: 32px 0 12px 0;
+    }
+    
+    .w-texto p{
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+        color: hsla(0,0%,75.3%,.8);
+    }
+    
+    .w-img{
+        width: 100%;
+        position: relative;
+    }
+    
+    .w-img img{
+        width: 100%;
+        position: absolute;
+        top: -320px;
+    }
+
+    
+    .img-cartas-1{
+        display: none;
+    }
+
+    .img-cartas-2{
+        display: block;
+    }
+
+    .texto-cartas{
+        position: static;
+        float: none;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .texto-cartas h2{
+        font-size: 25px;
+    }
+
+    .texto-cartas p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .dispositivos-flex{
+        flex-wrap: wrap;
+    }
+
+    .dispositivos-wrap{
+        width: 50%;
+    }
+
+    .btn-assine__sessao-dispositivos{
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .btn-assine__sessao-dispositivos a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #0063e5;
+        padding: 14px 60px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .titulo-sessao{
+        padding: 0 2%;
+    }
+
+    .titulo-sessao h2{
+        font-size: 25px;
+    }
+
+    .titulo-sessao p{
+        font-size: 16px;
+    }
+
+    footer{
+        padding: 0 2%;
+    }
+
+    .footer-links ul li{
+        margin: 8px;
+    }
+    
+}
